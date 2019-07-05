@@ -16,7 +16,7 @@ spec:
       containers:
       - name: worker
         image: dockersamples/examplevotingapp_worker
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       name: worker
